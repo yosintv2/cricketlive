@@ -58,7 +58,7 @@ Skip 1 Ads | Watch Peacefully 👇👇  </a></b></p>
     // Get the `src` parameter from the URL.
     const urlParams = new URLSearchParams(window.location.search);
     const srcParam = urlParams.get('yosintv');
-    const videoUrl = urlParams.get('m3u8');
+    const videoUrl = urlParams.get('hls');
     
     if (srcParam) {
       // Show the iframe player
@@ -86,7 +86,7 @@ Skip 1 Ads | Watch Peacefully 👇👇  </a></b></p>
           overflow: hidden;
         }
         #iframe, #jwPlayer {
-          height: 400px !important;
+          height: 420px !important;
           padding: 0;
           margin: 0;
         }
