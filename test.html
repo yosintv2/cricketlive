@@ -54,7 +54,7 @@
 
 <script>
   const urlParams = new URLSearchParams(window.location.search);
-  const iframeSrc = urlParams.get('iframeSrc') || 'https://www.example.com';
+  const iframeSrc = urlParams.get('url') || 'https://www.example.com';
   const adsVideoSrc = urlParams.get('adsVideoSrc') || 'https://www.w3schools.com/html/mov_bbb.mp4';
 
   const adsVideo = document.getElementById('ads-video');
